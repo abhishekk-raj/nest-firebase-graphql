@@ -1,0 +1,15 @@
+export enum ResponseStatusCode {
+  Success = 200,
+  Created = 201,
+  BadRequest = 400,
+  UnAuthenticated = 401,
+  UnAuthorized = 403,
+  Forbidden = 403,
+  NotFound = 404,
+  NotAcceptable = 406,
+  Timeout = 408,
+  Gone = 410,
+  InternalServerError = 500,
+  BadGateway = 502,
+  ServiceUnavailable = 503,
+}
